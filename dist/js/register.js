@@ -1,0 +1,1 @@
+let oDiv=document.querySelector();

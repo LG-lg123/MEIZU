@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel=" stylesheet " href="css/register-min.css ">
+    <style>
+        .tui-checkbox:checked {
+            background: #1673ff
+        }
+        
+        .tui-checkbox {
+            width: 16px;
+            height: 16px;
+            background-color: #ffffff;
+            border: solid 1px #dddddd;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            font-size: 0.8rem;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            cursor: default;
+            -webkit-appearance: none;
+            -webkit-user-select: none;
+            user-select: none;
+            -webkit-transition: background-color ease 0.1s;
+            transition: background-color ease 0.1s;
+        }
+        
+        .tui-checkbox:checked::after {
+            content: '';
+            top: 2px;
+            left: 2px;
+            position: absolute;
+            background: transparent;
+            border: #fff solid 2px;
+            border-top: none;
+            border-right: none;
+            height: 5px;
+            width: 7px;
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="reg-header ">
+        <a href="https://www.meizu.com/ " class="meizuLogo">
+            <i class="icon"></i>
+        </a>
+    </div>
+    <div class="reg-content-wrap">
+        <div class="reg-content">
+            <form action="">
+                <h3>注册Flyme账号</h3>
+                <div class="num">
+                    <span>+86∨</span>
+                    <input type="text" placeholder="手机号码">
+                </div>
+                <div class="validation">
+
+                </div>
+                <div class="protocol">
+                    <input type="checkbox" name="agree" id="prot" class="tui-checkbox">
+                    <label for="prot">
+                        注册账号即表示您同意并愿意遵守 <span>Flyme账号服务协议</span> 、
+                        <span>法律声明</span>
+                        和<span>隐私政策立即注册</span>
+                    </label>
+                </div>
+                <div class="reg-button">
+                    <input type="submit" value="立即注册">
+                </div>
+                <p>登录</p>
+            </form>
+        </div>
+    </div>
+    <div class="reg-footer">
+        <div class="footer-top">
+            <div class="footer-left">
+                <li>
+                    <a href="http://www.meizu.com/about.html" target="_blank">关于魅族</a>
+                </li>
+                <li>
+                    <a href="http://hr.meizu.com" target="_blank">工作机会</a>
+                </li>
+                <li>
+                    <a href="http://www.meizu.com/contact.html" target="_blank">联系我们</a>
+                </li>
+                <li>
+                    <a href="https://www.meizu.com/legal.html" target="_blank">法律声明</a>
+                </li>
+                <li>
+                    <a href="https://uc-res.mzres.com/resources/uc/wlogin/faq/html/index.html" target="_blank">常见问题</a>
+                </li>
+                <li><span>English</span><span>简体中文</span></li>
+            </div>
+            <div class="footer-middle">
+                <span>客服热线</span>
+                <span>400-788-3333</span>
+                <a href="javascript:void(0);" title="在线客服">在线客服</a>
+            </div>
+            <div class="footer-right">
+                <li>
+                    <a href="http://weibo.com/meizumobile" target="_blank">
+                        <i>微博</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" target="_blank">
+                        <i>微信</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://user.qzone.qq.com/2762957059" target="_blank">
+                        <i>qq空间</i>
+                    </a>
+                </li>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy;2021 Meizu Telecom Equipment Co., Ltd. All rights reserved.</span>
+            <a href="http://www.miitbeian.gov.cn/" target="_blank">备案号: 粤ICP备13003602号-4</a>
+            <a href="http://www3.res.meizu.com/static/cn/widget/footer/images/icp2_b2dcb54.jpg" target="_blank">经营许可证编号:粤B2-20130198</a>
+            <a href="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg" target="_blank">营业执照</a>
+        </div>
+    </div>
+</body>
+
+</html>
